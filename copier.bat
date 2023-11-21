@@ -10,4 +10,4 @@ set /p "mainContent="<"%mainFile%"
 echo !mainContent!>"!a!.bat"
 set /a "a+=1"
 
-goto :LOOP
+goto :loop
