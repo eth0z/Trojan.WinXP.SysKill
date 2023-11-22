@@ -1,10 +1,10 @@
 @echo off
 
-:loop
-setlocal enabledelayedexpansion
-
 set "a=0"
 set "mainFile=main.bat"
+
+:loop
+setlocal enabledelayedexpansion
 
 set /p "mainContent="<"%mainFile%"
 
